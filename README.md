@@ -19,8 +19,11 @@ Have in mind that some versions are using different serial settings.
 
 ###Software
 Clone https://github.com/phaetto/Commands
+
 Then clone https://github.com/phaetto/ESP8266
+
 And lastly clone this repository. Open in MPLAB X, build and deploy.
+
 To connect to your router change the connections in user.c: [SSID] and [PASSWORD]
 
 When running the example you should be able to see in the terminal your public ip coming from http://myip.dnsdynamic.org/
