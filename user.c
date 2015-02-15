@@ -33,17 +33,26 @@ const char DnsDynamicHttpRequestString[] = "GET / HTTP/1.1" CMD_CRLF
 
 void OnDnsDynamicResponse(const char *string);
 
+TcpConnection DnsDynamicTcpConnection = {
+    "myip.dnsdynamic.org",
+    80,
+    NULL // It will be parsed as an http response
+};
+
 TcpRequest DnsDynamicTcpRequest =
 {
     DnsDynamicHttpRequestString,
     sizeof(DnsDynamicHttpRequestString),
-    "myip.dnsdynamic.org",
-    80,
+    &DnsDynamicTcpConnection
+};
+
+HttpRequest DnsDynamicHttpRequest = {
+    &DnsDynamicTcpRequest,
     OnDnsDynamicResponse
 };
 
 void OnDnsDynamicResponse(const char *string) {
-    // This is the tcp response, so we will get all the http parts as well.
+    // This is the pure http response
 
     // Do something with the response here
 
