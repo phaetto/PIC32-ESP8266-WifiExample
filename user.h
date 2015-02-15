@@ -1,5 +1,8 @@
 
 #include "system.h"
+#include "../Commands/commands.h"
+#include "../ESP8266/ESP8266.h"
+#include "../ESP8266/ESP8266Http.h"
 
 /******************************************************************************/
 /* User Level #define Macros                                                  */

@@ -11,9 +11,7 @@
 #include <stdint.h>          /* For uint32_t definition                       */
 #include <stdbool.h>         /* For true/false definition                     */
 
-#include "user.h"
-#include "../Commands/commands.h"            /* variables/params used by user.c               */
-#include "../ESP8266/ESP8266.h"
+#include "user.h"           /* variables/params used by user.c               */
 
 // Private
 #define USER_AGENT "PIC32MX795+ESP8266"
