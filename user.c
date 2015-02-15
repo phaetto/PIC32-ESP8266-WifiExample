@@ -94,7 +94,7 @@ void InitApp(void)
 
     // Make the requests to Wifi service - they will be picked up when the service needs them
     ConnectToAccessPoint(&routerConnection, &DefaultWifiService);
-    SendRequest(&DnsDynamicTcpRequest, &DefaultWifiService);
+    SendHttpRequest(&DnsDynamicHttpRequest, &DefaultWifiService);
 }
 
 // UART related methods
