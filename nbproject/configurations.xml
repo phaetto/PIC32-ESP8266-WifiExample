@@ -13,6 +13,7 @@
       <itemPath>../ESP8266/WifiGetCommand.h</itemPath>
       <itemPath>../ESP8266/WifiSendCommand.h</itemPath>
       <itemPath>CommandEngine.h</itemPath>
+      <itemPath>C:/Users/Alex-TP/Google Drive/Projects/Electronics/MPLAB/ESP8266/ESP8266Http.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -34,6 +35,7 @@
       <itemPath>../ESP8266/WifiGetCommand.c</itemPath>
       <itemPath>../ESP8266/WifiSendCommand.c</itemPath>
       <itemPath>CommandEngine.c</itemPath>
+      <itemPath>C:/Users/Alex-TP/Google Drive/Projects/Electronics/MPLAB/ESP8266/ESP8266Http.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
